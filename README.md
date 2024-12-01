@@ -1,4 +1,4 @@
-WP Exploit Scanner
+WP Exploit Scanner by k0ur1i
 WP Exploit Scanner is a comprehensive tool for scanning, detecting, and exploiting vulnerabilities in WordPress websites. It integrates multiple functionalities, including Shodan and ZoomEye searches, Nuclei scanning, auto-exploitation, and the ability to import custom exploit scripts.
 
 Features
@@ -8,33 +8,41 @@ ZoomEye Integration: Search for WordPress-related systems using ZoomEye.
 Nuclei Scanning: Use Nuclei templates to identify CVEs, misconfigurations, and WordPress-specific issues.
 Auto-Exploitation: Automatically exploit known vulnerabilities.
 Custom Exploit Import: Dynamically import and execute Python exploit scripts.
-Requirements
-Python Dependencies
-Install the necessary Python libraries:
 
-pip install requests pyfiglet rich shodan
+
+Requirements :
+Python Dependencies :
+- Install the necessary Python libraries:
+
+- pip install requests pyfiglet rich shodan
 Additional Tools
 Shodan API Key
 ZoomEye API Key
 Nuclei:
 Install Nuclei and configure its path in the script.
+
+
+
 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/wp-exploit-scanner.git
-cd wp-exploit-scanner
+git clone https://github.com/00xk0uR1i/k0URI.git
+cd wpk0ur1i-Exploiter
 Configure the script:
 
 Add your Shodan API key:
 SHODAN_API_KEY = "your_shodan_api_key"
 Add your ZoomEye API key (if applicable).
 Configure the Nuclei path and templates.
+
+
+
 Run the script:
 
-python scanner.py --help
+python k0ur1i.py --help
 Usage
 General Syntax
-python scanner.py [OPTIONS]
+python k0ur1i.py [OPTIONS]
 Options
 --target: Specify the target WordPress site URL.
 --shodan: Perform a Shodan search for WordPress-related systems.
@@ -42,22 +50,26 @@ Options
 --nuclei: Scan the target with Nuclei.
 --exploit: Attempt to auto-exploit known vulnerabilities.
 --import-exploit: Import and execute a custom Python exploit script.
-Examples
+
+
+Examples:
 Scan a WordPress site for vulnerabilities:
 
-python scanner.py --target "http://example.com"
+python k0uR1i.py --target "http://example.com"
 Perform a Shodan search for WordPress sites:
 
-python scanner.py --shodan
+python k0ur1i.py --shodan
 Scan with Nuclei:
 
-python scanner.py --target "http://example.com" --nuclei
+python k0ur1i.py --target "http://example.com" --nuclei
 Automatically exploit vulnerabilities:
 
-python scanner.py --target "http://example.com" --exploit
+python k0ur1i.py --target "http://example.com" --exploit
 Import and run a custom exploit script:
 
-python scanner.py --target "http://example.com" --import-exploit "/path/to/exploit.py"
+python k0ur1i.py --target "http://example.com" --import-exploit "/path/to/exploit.py"
+
+
 Example Exploit Script
 Here’s an example of a custom exploit script that can be imported and executed:
 
@@ -69,14 +81,26 @@ def run_exploit(target):
         print(f"Exploit succeeded! Response: {response.text}")
     else:
         print("Exploit failed.")
+
+
+
+
+
+
+        
 Ethical Usage
 This tool is intended for ethical and authorized testing only. Unauthorized testing or exploitation is illegal. Use this tool only on systems you own or have explicit permission to test.
+
+
+
+
+
 
 License
 This project is licensed under the MIT License.
 
 Author
-Your Name Here
+created by k0ur1iTN
 
 GitHub
 LinkedIn
