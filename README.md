@@ -30,8 +30,8 @@ Exploit succeeded! Response: Exploit Successful!
 
 ## Install and run
 
-1. pip install ```requests pyfiglet rich shodan. ```
-2. git clone https://github.com/00xk0uR1i/k0URI
+1. pip install requests pyfiglet rich shodan. 
+2. ```git clone https://github.com/00xk0uR1i/k0URI ```
 3. Run the script:
     - `python k0ur1iScan.py --help`
     - `python k0ur1iScan.py [OPTIONS]` ✨ new ✨
