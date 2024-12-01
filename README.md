@@ -1,7 +1,13 @@
 # WP ExploitScanner
 ![360_F_228230865_YowfNN5a7r6WDQu97swpRPeTdJd1VRkt](https://github.com/user-attachments/assets/3710f08f-bcfc-4cc0-bbb5-891b0efd0509)
-
-![GitHub VS Code theme]([https://www.shutterstock.com/shutterstock/videos/1104255715/preview/stock-footage-glitchy-binary-background-with-a-hacker-skull-logo.webm])
+WP Exploit Scanner is a multi-functional tool for scanning, detecting, and exploiting vulnerabilities in WordPress websites. It integrates multiple features such as Shodan and ZoomEye queries, Nuclei scanning, and auto-exploitation. Additionally, it allows users to import custom Python exploit scripts for dynamic execution.
+## Features
+1. WordPress Vulnerability Scanning: Detect vulnerabilities in WordPress sites using APIs and known methods.
+2. Shodan Integration: Search for WordPress-related systems using the Shodan API.
+3. ZoomEye Integration: Query ZoomEye for WordPress-related systems.
+4. Nuclei Scanning: Use Nuclei templates to scan for CVEs, misconfigurations, and WordPress-specific issues.
+5. Auto-Exploitation: Exploit known vulnerabilities automatically.
+6. Custom Exploit Import: Import and execute Python-based exploit scripts dynamically.
 
 ## Install
 
