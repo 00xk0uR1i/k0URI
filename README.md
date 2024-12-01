@@ -1,8 +1,9 @@
 # WPEXpl0itScann3r
-![Untitledegzgzeryz design (2)_cropped](https://github.com/user-attachments/assets/d1d10303-4bf4-45e2-8b30-821ac5661deb)
 ```  WPExploitScanner is a multi tool for scanning, detecting, and exploiting vulnerabilities in WordPress websites. It integrates multiple features such as Shodan and ZoomEye queries, Nuclei scanning, and auto-exploitation. Additionally, it allows users to import custom Python exploit scripts for dynamic execution. ```
 
 ```
+![Untitledegzgzeryz design (2)_cropped](https://github.com/user-attachments/assets/d1d10303-4bf4-45e2-8b30-821ac5661deb)
+
 ██████╗ ██╗    ██╗███████╗ ██████╗ █████╗ ███╗   ██╗███╗   ███╗███████╗██████╗ 
 ██╔══██╗██║    ██║██╔════╝██╔════╝██╔══██╗████╗  ██║████╗ ████║██╔════╝██╔══██╗
 ██████╔╝██║ █╗ ██║█████╗  ██║     ███████║██╔██╗ ██║██╔████╔██║█████╗  ██████╔╝
