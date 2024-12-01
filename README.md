@@ -31,6 +31,7 @@ SHODAN_API_KEY = "your_shodan_api_key")
 
 ## Example Exploit Script
 
+```
 
 Example Exploit Script
 def run_exploit(target):
@@ -41,13 +42,14 @@ def run_exploit(target):
     else:
         print("Exploit failed.")
 
+```
 
 
 Note:
 
--This tools for ethical hacker I am Not responsible for any bad use .
+## This tools for ethical hacker I am Not responsible for any bad use .
 
 ## License
-This project is licensed under the MIT License.
+# This project is licensed under the MIT License.
 
 >thanks for all 
