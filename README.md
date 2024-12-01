@@ -16,7 +16,7 @@ Running custom exploit on http://example.com
 Exploit succeeded! Response: Exploit Successful!
 
 ```
-<img src="[IMG_LINK](https://github-production-user-asset-6210df.s3.amazonaws.com/101189469/391305173-3eeadcaf-7c76-46cc-b49a-3d7c8e6f66c6.jpg)" width="100" height="100"/>
+<img src="[IMG_LINK](https://i.ibb.co/jwnkVYK/df4v9ti-4f84e8e7-8d13-4d91-a241-664c58132d50.jpg)" width="100" height="100"/>
 
 
 
