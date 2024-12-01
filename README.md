@@ -1,78 +1,48 @@
-### WP Exploit Scanner by k0ur1i
-WP Exploit Scanner is a comprehensive tool for scanning, detecting, and exploiting vulnerabilities in WordPress websites. It integrates multiple functionalities, including Shodan and ZoomEye searches, Nuclei scanning, auto-exploitation, and the ability to import custom exploit scripts.
+# WP ExploitScanner
 
 
+![GitHub VS Code theme]([https://t3.ftcdn.net/jpg/02/28/23/08/360_F_228230865_YowfNN5a7r6WDQu97swpRPeTdJd1VRkt.jpg])
 
-Requirements :
-Python Dependencies :
-- Install the necessary Python libraries:
+## Install
 
-- pip install requests pyfiglet rich shodan
-- Additional Tools
-Shodan API Key
-ZoomEye API Key
-Nuclei:
-Install Nuclei and configure its path in the script.
+1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
+2. Click on the "Install" button.
+3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme). The GitHub themes try to match the themes available in [github.com's settings](https://github.com/settings/appearance):
+    - `GitHub Light Default`
+    - `GitHub Light High Contrast` ✨ new ✨
+    - `GitHub Light Colorblind` ✨ new ✨
+    - `GitHub Dark Default`
+    - `GitHub Dark High Contrast`
+    - `GitHub Dark Colorblind` ✨ new ✨
+    - `GitHub Dark Dimmed`
 
+Additionally, there are also two older themes. **Note**: They might not get updated frequently and are kept for legacy reasons:
 
+- `GitHub Light` (legacy)
+- `GitHub Dark` (legacy)
 
-- Installation
-- Clone the repository:
+## Override this theme
 
-git clone https://github.com/00xk0uR1i/k0URI.git
+To override this (or any other) theme in your personal config file, please follow the guide in the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation. This is handy for small tweaks to the theme without having to fork and maintain your own theme. 
 
+## Contribute
 
-- Run the script:
+1. Clone and open this [repo](https://github.com/primer/github-vscode-theme) in VS Code
+2. Run `yarn` to install the dependencies.
+3. Press `F5` to open a new window with your extension loaded
+4. Open `Code > Preferences > Color Theme` [`⌘k ⌘t`] and pick the "GitHub ..." theme you want to test. Note: It seems this has to be done 2x because the first time it switches back to the default light theme. This might be a bug?
+5. Make changes to the [`/src/theme.js`](https://github.com/primer/github-vscode-theme/blob/master/src/theme.js) file.
+    - **UI**: For all changes to the "outer UI", like (status bar, file navigation etc.), take a look at the [Theme Color](https://code.visualstudio.com/api/references/theme-color) reference.
+    - **Syntax**: For changes to the "code highlighting", examine the syntax scopes by invoking the [`Developer: Inspect Editor Tokens and Scopes`](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector) command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) in the Extension Development Host window.
+6. Run `yarn build` to update the theme. You can also run `yarn start` instead to automatically rebuild the theme while making changes and no reloading should be necessary.
+7. Once you're happy, commit your changes and open a PR.
 
-- python k0ur1i.py --help
-Usage
-- General Syntax
-- python k0ur1i.py [OPTIONS]
-Options
---target: Specify the target WordPress site URL.
---shodan: Perform a Shodan search for WordPress-related systems.
---zoomeye: Perform a ZoomEye search for WordPress-related systems.
---nuclei: Scan the target with Nuclei.
---exploit: Attempt to auto-exploit known vulnerabilities.
---import-exploit: Import and execute a custom Python exploit script.
+Note:
 
+- If possible use colors from [Primer's color system](https://primer.style/primitives/colors).
 
-- Examples:
-Scan a WordPress site for vulnerabilities:
+## Publish (internal)
 
-python k0uR1i.py --target "http://example.com"
-Perform a Shodan search for WordPress sites:
+> Note: Publishing a new version of this theme is only meant for maintainers.
 
-python k0ur1i.py --shodan
-Scan with Nuclei:
-
-python k0ur1i.py --target "http://example.com" --nuclei
-Automatically exploit vulnerabilities:
-
-python k0ur1i.py --target "http://example.com" --exploit
-Import and run a custom exploit script:
-
-python k0ur1i.py --target "http://example.com" --import-exploit "/path/to/exploit.py"
-
-       
-Ethical Usage
-This tool is intended for ethical and authorized testing only. Unauthorized testing or exploitation is illegal. Use this tool only on systems you own or have explicit permission to test.
-
-
-
-
-
-
-License
-This project is licensed under the MIT License.
-
-Author
-created by k0ur1iTN
-
-GitHub
-LinkedIn
-
-
-
-
-
+This repo uses [changesets](https://github.com/atlassian/changesets) to automatically make updates to [CHANGELOG.md](https://github.com/primer/github-vscode-theme/blob/main/CHANGELOG.md) and publish a new version to the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
