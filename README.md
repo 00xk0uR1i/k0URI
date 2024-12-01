@@ -16,7 +16,7 @@ Running custom exploit on http://example.com
 Exploit succeeded! Response: Exploit Successful!
 
 ```
-<img src="[https://i.ibb.co/jwnkVYK/df4v9ti-4f84e8e7-8d13-4d91-a241-664c58132d50.jpg](https://i.ibb.co/jwnkVYK/df4v9ti-4f84e8e7-8d13-4d91-a241-664c58132d50.jpg)" width="100" height="100"/>
+<img src="[https://i.ibb.co/xJLbdB1/df4v9ti-4f84e8e7-8d13-4d91-a241-664c58132d50.png](https://i.ibb.co/jwnkVYK/df4v9ti-4f84e8e7-8d13-4d91-a241-664c58132d50.jpg)" width="100" height="100"/>
 
 
 
