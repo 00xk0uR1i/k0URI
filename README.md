@@ -1,6 +1,5 @@
 # WP ExploitScanner
-
-[Uploading stock-footage-glitchy-binary-background-with-a-hacker-skull-logo.webm…]()
+![360_F_228230865_YowfNN5a7r6WDQu97swpRPeTdJd1VRkt](https://github.com/user-attachments/assets/3710f08f-bcfc-4cc0-bbb5-891b0efd0509)
 
 ![GitHub VS Code theme]([https://www.shutterstock.com/shutterstock/videos/1104255715/preview/stock-footage-glitchy-binary-background-with-a-hacker-skull-logo.webm])
 
