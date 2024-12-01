@@ -71,7 +71,6 @@ created by k0ur1iTN
 
 GitHub
 LinkedIn
-Save this as README.md in your repository's root. Would you like to add badges, screenshots, or other GitHub-specific elements?
 
 
 
