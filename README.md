@@ -8,7 +8,7 @@ Python Dependencies :
 - Install the necessary Python libraries:
 
 - pip install requests pyfiglet rich shodan
-Additional Tools
+- Additional Tools
 Shodan API Key
 ZoomEye API Key
 Nuclei:
@@ -16,18 +16,18 @@ Install Nuclei and configure its path in the script.
 
 
 
-Installation
-Clone the repository:
+- Installation
+- Clone the repository:
 
 git clone https://github.com/00xk0uR1i/k0URI.git
 
 
-Run the script:
+- Run the script:
 
-python k0ur1i.py --help
+- python k0ur1i.py --help
 Usage
-General Syntax
-python k0ur1i.py [OPTIONS]
+- General Syntax
+- python k0ur1i.py [OPTIONS]
 Options
 --target: Specify the target WordPress site URL.
 --shodan: Perform a Shodan search for WordPress-related systems.
@@ -37,7 +37,7 @@ Options
 --import-exploit: Import and execute a custom Python exploit script.
 
 
-Examples:
+- Examples:
 Scan a WordPress site for vulnerabilities:
 
 python k0uR1i.py --target "http://example.com"
