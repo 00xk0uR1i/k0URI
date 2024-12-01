@@ -1,4 +1,4 @@
-WP Exploit Scanner by k0ur1i
+### WP Exploit Scanner by k0ur1i
 WP Exploit Scanner is a comprehensive tool for scanning, detecting, and exploiting vulnerabilities in WordPress websites. It integrates multiple functionalities, including Shodan and ZoomEye searches, Nuclei scanning, auto-exploitation, and the ability to import custom exploit scripts.
 
 
